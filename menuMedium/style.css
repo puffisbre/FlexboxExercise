@@ -1,0 +1,43 @@
+body{
+   background-color: gray; 
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    margin-top: 1%;
+    border-radius: 25px;
+    height: 200px;
+    width: 100%;
+    gap: 25px;
+}
+a{
+    align-self: center;
+    color: gray;
+    text-decoration: none;
+
+}
+
+nav img{
+    margin-right: auto;
+    margin-left: 35px;
+    justify-content: start;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+}
+
+.login{
+    margin-left: auto;
+    margin-right: 35px;
+    background-color: lightgray;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+}

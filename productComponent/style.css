@@ -1,0 +1,54 @@
+body{
+    background-color: gray;
+}
+
+.product{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+figure{
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    margin: 0;
+}
+
+figure img{
+    width: 300px;
+    margin-top: auto;
+}
+
+p{
+    justify-content: center;
+}
+
+figcaption{
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+
+aside{
+    display: flex;
+    height: 400px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+button{
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
